@@ -1,3 +1,4 @@
+import FillEmptySpace from '../../components/fill-empty-space';
 import NavBar from '../../components/nav-bar';
 import BottomNavBar from '../../components/nav-bar-bottom';
 import { NAV_BAR, cards } from '../../constants/nav-bar';
@@ -13,28 +14,7 @@ export default function Sup() {
         }}
       >
         <NavBar currentPage={NAV_BAR.SUP}></NavBar>
-
-        <div
-          style={{
-            height: '200px',
-            width: '100%',
-            backgroundColor: 'white',
-          }}
-        ></div>
-        <div
-          style={{
-            height: '200px',
-            width: '100%',
-            backgroundColor: 'white',
-          }}
-        ></div>
-        <div
-          style={{
-            height: '200px',
-            width: '100%',
-            backgroundColor: 'white',
-          }}
-        ></div>
+        <FillEmptySpace></FillEmptySpace>
         <BottomNavBar currentPage={NAV_BAR.SUP}></BottomNavBar>
       </div>
     </div>
