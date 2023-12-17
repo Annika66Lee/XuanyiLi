@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/XuanyiLi/static/css/main.98e36c75.css",
-    "main.js": "/XuanyiLi/static/js/main.07bfbd4b.js",
+    "main.css": "/XuanyiLi/static/css/main.c24d36f4.css",
+    "main.js": "/XuanyiLi/static/js/main.36d15550.js",
     "static/js/787.498e3191.chunk.js": "/XuanyiLi/static/js/787.498e3191.chunk.js",
+    "static/media/earth-svgrepo-com.svg": "/XuanyiLi/static/media/earth-svgrepo-com.4ed70beaafc38b927fb6d7183cdc86c8.svg",
+    "static/media/contact-phone-talking-svgrepo-com.svg": "/XuanyiLi/static/media/contact-phone-talking-svgrepo-com.669997f87af7d65daddd6266ebd5aa69.svg",
+    "static/media/portfolio-bag-svgrepo-com.svg": "/XuanyiLi/static/media/portfolio-bag-svgrepo-com.3b0e279328b43d5b3d9a68958889cbcf.svg",
+    "static/media/about-you-svgrepo-com.svg": "/XuanyiLi/static/media/about-you-svgrepo-com.2d6536caf57e977b3a0560c181260400.svg",
+    "static/media/home-1-svgrepo-com.svg": "/XuanyiLi/static/media/home-1-svgrepo-com.1be37bc6b1894801457c850ea2d91faf.svg",
     "index.html": "/XuanyiLi/index.html",
-    "main.98e36c75.css.map": "/XuanyiLi/static/css/main.98e36c75.css.map",
-    "main.07bfbd4b.js.map": "/XuanyiLi/static/js/main.07bfbd4b.js.map",
+    "static/media/question-mark-svgrepo-com.svg": "/XuanyiLi/static/media/question-mark-svgrepo-com.ec8fc6ee795829c2ae5fa57c58864f7b.svg",
+    "main.c24d36f4.css.map": "/XuanyiLi/static/css/main.c24d36f4.css.map",
+    "main.36d15550.js.map": "/XuanyiLi/static/js/main.36d15550.js.map",
     "787.498e3191.chunk.js.map": "/XuanyiLi/static/js/787.498e3191.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98e36c75.css",
-    "static/js/main.07bfbd4b.js"
+    "static/css/main.c24d36f4.css",
+    "static/js/main.36d15550.js"
   ]
 }
