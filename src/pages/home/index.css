@@ -3,9 +3,11 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 100vh;
   overflow: scroll;
   background-color: #e6e9eb;
+}
+.home {
+  align-content: center;
 }
 .main-container {
   width: 100%;
@@ -15,7 +17,7 @@
 .card {
   position: relative;
   width: 25%;
-  height: 50%;
+  height: 50vh;
   max-height: 500px;
   margin: 10px;
   padding: 20px;
@@ -27,15 +29,58 @@
   position: relative;
   height: 70%;
 }
-
+.picture img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 70%;
+}
 .card .title {
   position: relative;
   font-weight: bold;
-  border-bottom: 1px solid white;
   color: white;
+}
+.card .hiddenTitle {
+  visibility: hidden;
+  opacity: 0;
+  position: relative;
+  font-weight: bold;
+  color: white;
+  font-size: xx-large;
+  top: 100%;
+  height: 40%;
+  transition: opacity 0.5s ease, visibility 0.5s ease, top 0.5s ease;
+}
+.card:hover .hiddenTitle {
+  top: 30%;
+  opacity: 1;
+  visibility: visible;
+  overflow: scroll;
+}
+.card:hover .title,
+.card:hover .description {
+  animation: flip 1s ease-in-out;
+  transform-style: preserve-3d;
 }
 
 .card .description {
+  position: absolute;
+  bottom: 20px;
+  border-top: 1px solid white;
+  padding-top: 10px;
   position: relative;
   color: white;
+}
+
+@keyframes flip {
+  0% {
+    transform: perspective(400px) rotateY(0deg);
+  }
+  50% {
+    transform: perspective(400px) rotateY(180deg);
+  }
+  100% {
+    transform: perspective(400px) rotateY(0deg);
+  }
 }
